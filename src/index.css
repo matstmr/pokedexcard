@@ -5,9 +5,57 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #F5F5F5;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.app .logoPokemon {
+  width: 400px;
+}
+
+.app input {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 10px 20px 10px 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid grey;
+}
+
+.app input:focus {
+  border: 1px solid grey;
+  outline: none;
+}
+
+.app ul{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+}
+
+.container ul li img {
+  padding: 5px;
 }

@@ -1,0 +1,149 @@
+/* TypeList.css */
+.type-buttons {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    left: 20px;
+    top: 25%;
+}
+  
+  .type-button {
+    padding: 8px 16px;
+    cursor: pointer;
+    border: 1px solid transparent; /* Contour initial transparent */
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Transition pour un effet visuel lors du survol/click */
+    background: #FFFFFF;
+    margin-bottom: 10px;
+  }
+
+  .type-button:active {
+    background-color: #D50000;
+    color: #FFFFFF;
+  }
+  
+  /* Ajoutez des styles spécifiques pour chaque type */
+  .type-button.fire {
+    border-color: #D50000;
+    color: #D50000;
+  }
+
+  .type-button.fire:hover,
+  .type-button.selected.fire {
+    background-color: #D50000;
+    color: #FFFFFF;
+  }
+  
+  .type-button.water {
+    border-color: #1976D2;
+    color: #1976D2;
+  }
+
+  .type-button.water:hover,
+  .type-button.selected.water {
+    background-color: #1976D2;
+    color: #FFFFFF;
+  }
+  
+  .type-button.grass {
+    border-color: #00C853;
+    color: #00C853;
+  }
+
+  .type-button.grass:hover,
+  .type-button.selected.grass {
+    background-color: #00C853;
+    color: #FFFFFF;
+  }
+  
+  .type-button.fighting {
+    border-color: #E65100;
+    color: #E65100;
+  }
+
+  .type-button.fighting:hover,
+  .type-button.selected.fighting {
+    background-color: #E65100;
+    color: #FFFFFF;
+  }
+
+  .type-button.lightning {
+    border-color: #F57F17;
+    color: #F57F17;
+  }
+
+  .type-button.lightning:hover,
+  .type-button.selected.lightning {
+    background-color: #F57F17;
+    color: #FFFFFF;
+  }
+
+  .type-button.fairy {
+    border-color: #7E57C2;
+    color: #7E57C2;
+  }
+  
+  .type-button.fairy:hover,
+  .type-button.selected.fairy {
+    background-color: #7E57C2;
+    color: #FFFFFF;
+  }
+
+  .type-button.darkness {
+    border-color: #212121;
+    color: #212121
+  }
+
+  .type-button.darkness:hover,
+  .type-button.selected.darkness {
+    background-color: #212121;
+    color: #FFFFFF;
+  }
+
+  .type-button.dragon {
+    border-color: #D50000;
+    color: #D50000;
+  }
+
+  .type-button.dragon:hover,
+  .type-button.selected.dragon {
+    background-color: #D50000;
+    color: #FFFFFF;
+  }
+
+  .type-button.metal {
+    border-color: #37474F;
+    color: #37474F;
+  }
+
+  .type-button.metal:hover,
+  .type-button.selected.metal {
+    background-color: #37474F;
+    color: #FFFFFF;
+  }
+
+  .type-button.psychic {
+    border-color: #D81B60;
+    color: #D81B60;
+  }
+
+  .type-button.psychic:hover,
+  .type-button.selected.psychic {
+    background-color: #D81B60;
+    color: #FFFFFF;
+  }
+
+  .type-button.colorless {
+    border-color: #707070;
+    color: #707070;
+  }
+
+  .type-button.colorless:hover,
+  .type-button.selected.colorless {
+    background-color: #707070;
+    color: #FFFFFF;
+  }
+
+  /* Ajoutez d'autres styles pour les types supplémentaires */
+  
