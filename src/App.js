@@ -23,7 +23,7 @@ function App() {
           a.nationalPokedexNumbers[0] - b.nationalPokedexNumbers[0]
         );
 
-        console.log(response);
+        console.log(response);  
         setCards(sortedCards);
 
         // Extraire les types uniques des cartes
